@@ -1,0 +1,28 @@
+.hero-container{
+    background: url(../imgs/header-background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-nav{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.nav-list{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-list-link{
+    text-decoration: none;
+    color: white;
+}
