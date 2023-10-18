@@ -62,7 +62,7 @@
 .hero-title-blue {
     color: rgb(4, 170, 221);
     margin-bottom: 2rem;
-} 
+}
 
 .hero-text {
     width: clamp(30ch, 50%, 60ch);
@@ -110,42 +110,42 @@
     width: 78vw;
 }
 
-.card{
+.card {
     justify-content: center;
     align-content: space-evenly;
-    overflow: hidden; 
+    overflow: hidden;
     background: var(--clr-blue);
     text-align: center;
     justify-items: center;
     justify-content: center;
 }
 
-.menu-img{
+.menu-img {
     width: 100%;
     aspect-ratio: 3/4;
     overflow: hidden;
     object-fit: cover;
 }
 
-.selected-title{
+.selected-title {
     font-size: 3rem;
 }
 
-.selected-description{
+.selected-description {
     /* width: clamp(30ch, 70%, 60ch); */
     font-size: var(--fs-xxs);
     font-family: var(--ff-main);
     color: var(--clr-white);
 }
 
-.selected-hero-container{
+.selected-hero-container {
     background: url(../imgs/selected-back.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
 }
 
-.hero-main{
+.hero-main {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -155,12 +155,12 @@
     height: min(43rem, 55rem);
 }
 
-.hero-image{
+.hero-image {
     border-radius: 2rem;
     width: 70%;
 }
 
-.hero-text-container{
+.hero-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,13 +168,13 @@
     width: 40%;
 }
 
-.hero-img-container{
+.hero-img-container {
     width: 60%;
     display: flex;
     justify-content: center;
 }
 
-.selected-price{
+.selected-price {
     font-size: var(--fs-m);
     color: var(--clr-white);
 }
@@ -183,12 +183,12 @@
 /*FOOD SCREEN*/
 
 .hero-container2 {
-      width: 100%;
-      height: 100%;
-      background: url(../imgs/waves_background.png) no-repeat 50% 50%;
-      top: 0;
-      position: fixed;
-      background-color: rgb(50, 50, 50);
+    width: 100%;
+    height: 100%;
+    background: url(../imgs/wood_background.png) no-repeat 10% 50%;
+    top: 0;
+    position: fixed;
+    background-color: rgb(50, 50, 50);
 }
 
 .top-nav2 {
@@ -196,8 +196,8 @@
     gap: 6rem;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .nav-list2 {
@@ -207,7 +207,7 @@
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    gap: 8rem;
+    gap: 5rem;
 }
 
 .nav-list-link2 {
@@ -215,29 +215,72 @@
     color: var(--clr-white);
 }
 
-.header-container-food{
+
+
+.header-container-food {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    margin: 5%;
-}
-
-.text-container-food{
-    
-}
-
-.food-title{
-font-size: var(--fs-xxl);
-font-family: var(--ff-secondary);
-font-weight: var(--fw-bold);
-color: white;
-}
-
-.food-description{
-    font-size: ;
+    gap: 9rem;
+    margin: 10%; 
+    margin-top: 3rem;
 }
 
 
+.go-back_button {
+    padding: 1rem 3rem;
+    background: none;
+    border-radius: 2rem;
+    border: none;
+    color: var(--clr-white);
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs2);
+    font-weight: var(--fw-bold);
+    border: solid white;
+    margin-left: 8rem;
+   
+}
+
+
+
+.food-title {
+    font-size: var(--fs-xxl);
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
+    color: white;
+}
+
+.food-description {
+    font-size: var(--fs-xs2);
+    font-family: var(--ff-main);
+    color: white;
+    margin-top: 2rem;
+}
+
+.food-price{
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-l);
+    font-weight: var(--fw-bold);
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.order-btn2 {
+    padding: 1.5rem 8rem;
+    background: var(--clr-yellow);
+    border-radius: 2rem;
+    border: none;
+    color: var(--clr-white);
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs2);
+    font-weight: var(--fw-bold);
+    margin-top: 2rem;
+}
 
 
 
@@ -246,7 +289,7 @@ color: white;
 
 
 
-.image-container{
+.image-container {
     width: 100%;
 }
 
@@ -290,18 +333,18 @@ color: white;
         height: min(70rem, 75rem);
     }
 
-    .hero-text-container{
+    .hero-text-container {
         width: 100%;
     }
 
-    .hero-main{
+    .hero-main {
         text-align: center;
         justify-items: center;
         flex-direction: column-reverse;
         padding: 2rem 2rem;
     }
 
-    .hero-img-container{
+    .hero-img-container {
         width: 100%;
     }
 }
