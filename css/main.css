@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 .top-nav {
     display: flex;
     gap: 6rem;
@@ -176,6 +178,95 @@
     font-size: var(--fs-m);
     color: var(--clr-white);
 }
+
+
+/*FOOD SCREEN*/
+
+.hero-container2 {
+      width: 100%;
+      height: 100%;
+      background: url(../imgs/waves_background.png) no-repeat 50% 50%;
+      top: 0;
+      position: fixed;
+      background-color: rgb(50, 50, 50);
+}
+
+.top-nav2 {
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nav-list2 {
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xxs);
+    font-weight: var(--fw-bold);
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 8rem;
+}
+
+.nav-list-link2 {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.header-container-food{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 5%;
+}
+
+.text-container-food{
+    
+}
+
+.food-title{
+font-size: var(--fs-xxl);
+font-family: var(--ff-secondary);
+font-weight: var(--fw-bold);
+color: white;
+}
+
+.food-description{
+    font-size: ;
+}
+
+
+
+
+
+
+
+
+
+
+.image-container{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:767.98px) {
 

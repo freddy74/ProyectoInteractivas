@@ -5,6 +5,7 @@
     --ff-secondary: 'Roboto Condensed', sans-serif;
 
     /*font size*/
+    --fs-xxl:6rem;     /*96px  Roboto Condensed Bold*/
     --fs-xl: 4rem;     /*64px  Roboto Condensed Bold*/
     --fs-l: 3rem;     /*48px  Roboto Condensed Bold*/
     --fs-m: 2rem;  /*36px  Roboto Regulat/Bold*/
