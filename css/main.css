@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: rgb(48, 48, 48);
+}
+
 
 
 .top-nav {
@@ -180,7 +184,7 @@
 }
 
 
-/*FOOD SCREEN*/
+/*FOOD DESCRIPTION*/
 
 .hero-container2 {
     width: 100%;
@@ -285,7 +289,7 @@
 .image-container {
     width: 100%;
 }
-
+/*FOOD DESCRIPTION*/
 
 
 
@@ -294,12 +298,15 @@
 
 .hero-container3 {
     width: 100%;
-    height: 85%;
+    height: 30rem;
     background: url(../imgs/main-dishes_hero.png) no-repeat 50% 50%;
     background-size: cover;
     top: 0;
-    position: fixed;
-    background-color: rgb(0, 255, 85);
+    border-bottom-left-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 5rem;
+
 }
 
 .buttons-container{
@@ -381,6 +388,84 @@
     color: white;
     text-align: center;
 }
+
+.cards_mainDishes-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 60rem;
+    background-color: rgb(48, 48, 48);
+    gap: 2rem;
+}
+
+
+.card2{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card2-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card2-h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-xs);
+}
+
+.card2-p {
+    font-family: var(--ff-main);
+    font-size: var(--fs-xxs);
+    color: #555;
+}
+
+.card2 .price2 {
+    font-size: var(--fs-xs);
+    font-weight: bold;
+    color: #ff6600;
+    margin: 10px 0;
+}
+
+.card2 .btn2 {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card2 .btn2:hover {
+    background-color: #ff3300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
