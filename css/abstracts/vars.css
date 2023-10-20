@@ -26,6 +26,6 @@
     --clr-menu-containers: hsla(0, 0%, 0%, 1);
     --clr-food-container: hsla(208, 100%, 11%, 1);
     --clr-view-all-button: hsla(0, 0%, 100%, 1);
-   --clr-blue: hsl(213, 48%, 17%, 1);
+    --clr-blue: hsl(213, 48%, 17%, 1);
     --clr-gray-decorations:hsla(194, 0%, 13%, 1);
   }
