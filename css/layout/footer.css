@@ -12,6 +12,7 @@
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
 }
 
 .social-icons {
@@ -23,8 +24,10 @@
 }
 
 .nav-bottom-list {
+    display: grid;
     list-style-type: none;
     margin-top: 1rem;
+    gap: .5rem;
 }
 
 .footer-link-text {

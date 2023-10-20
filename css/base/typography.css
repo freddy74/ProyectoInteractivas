@@ -72,7 +72,6 @@
 }
 
 
-
 .popular-text{
     font-family: var(--ff-main);
     font-size: var(--fs-xs);
@@ -111,7 +110,7 @@
 .price2 {
     font-size: var(--fs-xs);
     font-weight: bold;
-    color: #ff6600;
+    color: #000000;
     margin: 0.625rem 0;
     text-decoration: none;
 }
