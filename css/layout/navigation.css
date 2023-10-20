@@ -75,14 +75,14 @@
 
 @media (max-width: 1053px) {
 
-    /* .mobile-btn {
+    .mobile-btn {
         position: fixed;
         top: 4rem;
         right: 2rem;
-        width:1.5rem;
+        width: 1.5rem;
         height: .2rem;
         z-index: 3;
-    } */
+    }
 
     .mobile-btn>span,
     .mobile-btn>span::before,
@@ -148,7 +148,6 @@
         transition: right .5s;
     }
 
-    
     .nav-list2 {
         display: grid;
         position: fixed;
@@ -165,7 +164,6 @@
         transition: right .5s;
     }
 
-    
     .nav-list3 {
         display: grid;
         position: fixed;

@@ -4,7 +4,7 @@
     background: var(--clr-white);
     border-radius: 2rem;
     border: none;
-    color:var(--clr-blue);
+    color: var(--clr-blue);
     text-decoration: none;
     text-align: center;
     font-family: var(--ff-main);
@@ -24,7 +24,7 @@
     font-family: var(--ff-main);
     font-size: var(--fs-xs2);
     font-weight: var(--fw-bold);
-    border: solid white;
+    border: solid var(--clr-white);
     margin-left: 8rem;
     transition: transform 0.2s ease-in-out;
     transition: background-color 0.3s;
@@ -52,7 +52,7 @@
 }
 
 .submit-btn {
-    background: #ff6600;
+    background: var(--clr-orange);
     border: none;
     background-repeat: no-repeat;
     border-radius: 0.75rem;
@@ -81,10 +81,9 @@
     font-family: var(--ff-main);
     font-size: var(--fs-xs2);
     font-weight: var(--fw-bold);
-    border: solid white;
+    border: solid var(--clr-white);
     transition: transform 0.2s ease-in-out;
     transition: background-color 0.3s;
-
 }
 
 .go-next_button3 {
@@ -98,15 +97,14 @@
     font-family: var(--ff-main);
     font-size: var(--fs-xs2);
     font-weight: var(--fw-bold);
-    border: solid white;
+    border: solid var(--clr-white);
     transition: transform 0.2s ease-in-out;
     transition: background-color 0.3s;
-
 }
 
 .card2 .btn2 {
-    background-color: #ff6600;
-    color: #fff;
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
     border: none;
     border-radius: 4px;
     padding: 0.625rem 1.25rem;
@@ -117,7 +115,7 @@
 
 .order-btn {
     padding: 1.25rem 7rem;
-    background: #ff3300;
+    background: var(--clr-orange);
     border-radius: 2rem;
     border: none;
     color: var(--clr-white);
@@ -129,16 +127,37 @@
     transition: background-color 0.3s;
 }
 
+.order-btn:hover {
+    background-color: #ffc80087;
+}
 
+.btn2:hover {
+    background-color: #ff3300;
+}
+
+.go-back_button3:hover {
+    transform: scale(1.05);
+    background-color: #f7f6f697;
+}
+
+.go-next_button3:hover {
+    transform: scale(1.05);
+    background-color: #f7f6f697;
+}
+
+.go-back_button:hover {
+    transform: scale(1.05);
+    background-color: #f7f6f697;
+}
 
 @media (max-width:767.98px) {
 
-    .buttons-container{
+    .buttons-container {
         gap: 2rem;
         margin: 0;
     }
 
-    .go-back_button{
+    .go-back_button {
         margin-left: 5rem;
     }
 }
