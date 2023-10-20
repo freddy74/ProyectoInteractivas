@@ -5,18 +5,31 @@
 
 .menu-container {
     align-content: center;
+    border-radius: 7rem;
+    background-color: #ffffff;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1rem solid #ff6f00;
+    margin-bottom: 3rem;
+}
+
+.menu-container2 {
+    align-content: center;
 }
 
 .menu-cards {
     font-family: var(--ff-secondary);
     text-align: center;
     border-radius: 3rem;
-    color: var(--clr-white);
+    color:black;
     margin: 3rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
-    width: 80vw;
+    width: 70vw;
 }
 
 .card {
@@ -30,8 +43,8 @@
     justify-items: center;
     border-radius: .5rem;
     transition: transform 0.2s ease-in-out;
-    margin-bottom: 10rem;
-    box-shadow: 0px 0rem 1rem 0px #022c37;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0rem 1.5rem 0px #022c37;
 }
 
 .menu-img {
@@ -79,7 +92,13 @@
     flex-direction: column;
     text-align: center;
     font-family: var(--ff-main);
-    font-size: var(--fs-xxs);
+    font-size: clvar(--fs-xxs);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 80vw;
+    border-radius: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .in-touch {
@@ -90,7 +109,7 @@
     gap: 1rem;
 }
 
-.division-container{
+.division-container {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;

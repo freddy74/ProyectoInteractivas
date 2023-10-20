@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+.body1 {
+    background-image: url(../../imgs/body-background.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.body2 {
     background: var(--clr-white);
+    align-items: center;
+    justify-content: center;
 }

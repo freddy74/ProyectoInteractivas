@@ -5,6 +5,7 @@
     border-top: solid var(--clr-blue);
     padding: 1rem 8rem;
     font-family: var(--ff-main);
+    border-top-right-radius: 6rem;
 }
 
 .footer-content {
