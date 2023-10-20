@@ -138,6 +138,7 @@
     text-align: center;
     padding: 1.25rem;
     transition: transform 0.2s ease-in-out;
+    text-decoration: none;
 }
 
 .card2-img {
@@ -260,4 +261,17 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .cards_mainDishes-container{
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+
+    .card2{
+        max-width: 15rem;
+
+    }
+
+    
 }

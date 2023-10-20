@@ -6,6 +6,7 @@
     padding: 1rem 8rem;
     font-family: var(--ff-main);
     border-top-right-radius: 6rem;
+    border-top-left-radius: 6rem;
 }
 
 .footer-content {

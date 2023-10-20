@@ -58,6 +58,7 @@
     background-position: center;
     padding: 0.75rem 1.25rem;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .buttons-container {
@@ -125,4 +126,12 @@
     font-size: var(--fs-xxs);
     font-weight: var(--fw-bold);
     transition: background-color 0.3s;
+}
+
+@media (max-width:767.98px) {
+
+    .buttons-container{
+        gap: 2rem;
+        margin: 0;
+    }
 }
