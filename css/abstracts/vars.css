@@ -11,7 +11,7 @@
     --fs-m: 2rem;  /*36px  Roboto Regulat/Bold*/
     --fs-s: 2rem;     /*32px   Roboto Regular*/
     --fs-xs: 1.75rem; /*28px Roboto Regular*/
-    --fs-xs2: 1.45rem: /*24px Roboto Regular*/
+    --fs-xs2: 1.45rem; /*24px Roboto Regular*/
     --fs-xxs: 1.25rem; /*20px  Roboto Regular-Light*/
     
     /*font weight*/
@@ -23,9 +23,9 @@
     --clr-white: hsla(0, 100%, 100%, 1);
     --clr-yellow: hsla(46, 100%, 50%, 1);
     --clr-cian: hsla(194, 100%, 50%, 1);
-    --clr-menu-containers: hsla(0, 0%, 0%, 50%);
+    --clr-menu-containers: hsla(0, 0%, 0%, 1);
     --clr-food-container: hsla(208, 100%, 11%, 1);
-    --clr-view-all-button: hsla(0, 0%, 100%, 29%);
-   --clr-blue: hsl(213, 48%, 17%, 70%);
-    --clr-gray-decorations:hsla(194, 0%, 13%, 100%);
+    --clr-view-all-button: hsla(0, 0%, 100%, 1);
+   --clr-blue: hsl(213, 48%, 17%, 1);
+    --clr-gray-decorations:hsla(194, 0%, 13%, 1);
   }
