@@ -150,3 +150,11 @@
     color: var(--clr-gray);
     text-decoration: none;
 }
+
+
+.login-title{
+    text-align: center;
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-l);
+    margin-bottom: 1rem;
+}

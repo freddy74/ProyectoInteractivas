@@ -4,7 +4,7 @@
 @import url('./base/base.css');
 
 @import url('./layout/footer.css');
-@import url('./layout/header.css');
+@import url('./layout/header.css'); 
 @import url('./layout/grid.css');
 @import url('./layout/navigation.css');
 @import url('./layout/forms.css');
@@ -110,5 +110,23 @@
         width: 70%;
         display: flex;
     }
+
+    /* .main-login{
+        margin-top: 50px;
+    }
+
+    .back-box{
+        max-width: 350px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .back-box div{
+        margin: 0px;
+        position: absolute;
+    }  */
+
+
+
 
 }
